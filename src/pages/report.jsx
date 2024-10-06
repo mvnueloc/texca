@@ -149,7 +149,13 @@ export default function Report() {
                     ndvi={ndvi}
                     evapotranspiration={evapotranspiration}
                   />
-                  <Actions action_list={action_list} />
+                  <Actions
+                    state={state}
+                    country={country}
+                    temperature={temperature}
+                    precipitation={precipitation}
+                    humidity={humidity}
+                  />
                 </div>
               </section>
 
