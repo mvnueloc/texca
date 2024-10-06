@@ -71,8 +71,8 @@ function Index() {
       <div className="h-[100dvh] w-[100dvw] flex flex-col">
         {/* Header */}
         <Header
-          text="Asistente Agrícola"
-          className="mx-auto md:max-w-4xl"
+          text="Chinampa"
+          className="mx-auto md:max-w-4xl bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-gray-500"
         />
         <div className="h-[1.5px] bg-neutral-300"></div>
 
